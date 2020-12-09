@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private void checkCheckBox(){
         int selectedId = radioGroup.getCheckedRadioButtonId();
     if(selectedId == -1){
-        Toast.makeText(this,"prosím vyberte si možnosť",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,R.string.chose_an_option,Toast.LENGTH_SHORT).show();
     }
     else{
         radioButton = findViewById(selectedId);

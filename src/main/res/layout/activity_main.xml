@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:text="Na obed by som si dal"
+        android:text="@string/chose_an_option_lunch"
         android:layout_above="@+id/checkbox1"
         android:layout_centerHorizontal="true"
         ></TextView>
@@ -36,19 +36,19 @@
                 android:id="@+id/checkbox1_one"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="pizzu" />
+                android:text="@string/pizza" />
 
             <RadioButton
                 android:id="@+id/checkbox1_two"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="rezeň" />
+                android:text="@string/rezen" />
 
             <RadioButton
                 android:id="@+id/checkbox1_three"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="halušky" />
+                android:text="@string/halusky" />
         </RadioGroup>
 
 

@@ -17,7 +17,7 @@
        android:id="@+id/av2tv_obed"
        android:layout_centerInParent="true"
        android:layout_above="@id/av2tv_placeholder"
-       android:text="Na obed by som si dal"
+       android:text="@string/chose_an_option_lunch"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        tools:ignore="UnknownId"></TextView>

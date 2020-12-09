@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Zakladnewidgety</string>
+    <string name="chose_an_option">prosím vyberte si možnosť</string>
+    <string name="chose_an_option_lunch">Na obed by som si dal</string>
+    <string name="pizza">pizzu</string>
+    <string name="rezen">rezeň</string>
+    <string name="halusky">halušky</string>
 </resources>

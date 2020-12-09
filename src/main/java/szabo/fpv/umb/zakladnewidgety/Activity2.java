@@ -31,6 +31,7 @@ public class Activity2 extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //function on change states Switchbutton and Chechkbox
                 changeSwitchandCheckbox();
 
             }
@@ -47,6 +48,7 @@ public class Activity2 extends AppCompatActivity {
        textView.setText(text);
    }
    private void changeSwitchandCheckbox(){
+        //toogle() change actul state to diferent state
         checkBox.toggle();
         if(aSwitch.isChecked()){
             aSwitch.setChecked(false);
