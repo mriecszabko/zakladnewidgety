@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <TextView
+        android:layout_above="@+id/av2tv_obed"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:text="Aktivita č.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+   <TextView
+       android:id="@+id/av2tv_obed"
+       android:layout_centerInParent="true"
+       android:layout_above="@id/av2tv_placeholder"
+       android:text="Na obed by som si dal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       tools:ignore="UnknownId"></TextView>
+        <TextView
+            android:id="@+id/av2tv_placeholder"
+            android:layout_above="@+id/av2_checkbox1"
+            android:layout_alignRight="@+id/av2tv_obed"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"
+            android:text="palceholder"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    <CheckBox
+        android:id="@+id/av2_checkbox1"
+        android:text="Potvrdzujem obed"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+    </CheckBox>
+    <Switch
+        android:id="@+id/av2_switch"
+
+        android:layout_below="@+id/av2_checkbox1"
+        android:layout_alignStart="@+id/av2_checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Switch>
+    <TextView
+        android:text="Chcem si ešte objednať"
+        android:layout_toRightOf="@+id/av2_switch"
+        android:layout_below="@id/av2_checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <ImageButton
+        android:id="@+id/av2_ib"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_below="@+id/av2_switch"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageButton>
+
+</RelativeLayout>

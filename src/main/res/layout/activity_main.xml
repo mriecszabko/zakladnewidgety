@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktivita č.1"
+        android:layout_above="@+id/text2"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="60dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Na obed by som si dal"
+        android:layout_above="@+id/checkbox1"
+        android:layout_centerHorizontal="true"
+        ></TextView>
+        <RadioGroup
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <RadioButton
+                android:id="@+id/checkbox1_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pizzu" />
+
+            <RadioButton
+                android:id="@+id/checkbox1_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rezeň" />
+
+            <RadioButton
+                android:id="@+id/checkbox1_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="halušky" />
+        </RadioGroup>
+
+
+<Button
+    android:id="@+id/buttonNext"
+    android:layout_centerInParent="true"
+    android:layout_below="@+id/checkbox1"
+    android:layout_marginTop="30dp"
+    android:text="Odošli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ></Button>
+
+
+</RelativeLayout>
